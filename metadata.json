@@ -1,0 +1,8 @@
+{
+  "uuid": "batteryind@ash.ext.com",
+  "name": "Battery Indicator",
+  "description": "A battery indicator with notifications for low and high battery levels.",
+  "shell-version": ["44", "45", "46", "47","48","43"],
+  "url": "https://github.com/your-repo"
+}
+
