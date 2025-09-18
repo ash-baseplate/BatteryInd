@@ -15,6 +15,15 @@ A smart battery indicator extension for GNOME Shell that provides intelligent no
 
 ## Installation
 
+### Important: Installation Location
+
+The extension **must** be installed to:
+```
+~/.local/share/gnome-shell/extensions/batteryind@ash.ext.com/
+```
+
+This is the standard location where GNOME Shell looks for user extensions.
+
 ### Method 1: Manual Installation
 
 1. Clone or download this repository:
@@ -26,6 +35,8 @@ A smart battery indicator extension for GNOME Shell that provides intelligent no
    ```bash
    cp -r BatteryInd ~/.local/share/gnome-shell/extensions/batteryind@ash.ext.com/
    ```
+
+   **Note**: The folder name `batteryind@ash.ext.com` must match the UUID in `metadata.json`
 
 3. Restart GNOME Shell:
    - Press `Alt + F2`
