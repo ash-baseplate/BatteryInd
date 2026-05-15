@@ -1,5 +1,5 @@
 {
-  "uuid": "batteryind@ash.ext.com",
+  "uuid": "batteryind@ash-baseplate.github.com",
   "name": "Battery Indicator",
   "description": "A battery indicator with notifications for low and high battery levels.",
   "shell-version": ["50"],
