@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.batteryind" path="/org/gnome/shell/extensions/batteryind/">
+    <key name="notification-enabled" type="b">
+      <default>true</default>
+      <summary>Enable battery notifications</summary>
+      <description>Controls whether battery level notifications are shown.</description>
+    </key>
+    <key name="notification-cooldown" type="i">
+      <default>30</default>
+      <range min="0" max="3600" />
+      <summary>Notification cooldown</summary>
+      <description>Minimum time in seconds between battery notifications.</description>
+    </key>
+    <key name="lower-limit" type="i">
+      <default>40</default>
+      <range min="0" max="100" />
+      <summary>Lower battery limit</summary>
+      <description>Battery percentage that triggers the low battery notification.</description>
+    </key>
+    <key name="upper-limit" type="i">
+      <default>80</default>
+      <range min="0" max="100" />
+      <summary>Upper battery limit</summary>
+      <description>Battery percentage that triggers the charging notification.</description>
+    </key>
+  </schema>
+</schemalist>
